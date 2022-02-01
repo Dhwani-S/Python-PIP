@@ -16,5 +16,5 @@ size = int(input("Enter size\n"))
 elements = [int(elements) for elements in input("Enter elements:\t").split()]
 
 for i in elements:
-    if elements.count(i) == 1:
+    if elements.count(i) == 1:  #If count is 1, then it is unique
         print('Captain\'s Room Number is: ',i)
