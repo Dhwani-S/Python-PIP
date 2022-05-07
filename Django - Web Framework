@@ -1,0 +1,146 @@
+medium link: https://medium.com/@20ce140/django-web-framework-eb9c0f45a4da
+
+Django — Web Framework
+What’s in this article?
+
+What is a ‘Web Framework’?
+Why Django?
+MVT & MCT
+Django Setup
+Introduction
+What is Django?
+
+Django as you might know is a free and open-source web framework.
+
+For those who might not know what is a framework, a framework is the combination of certain components and packages.
+
+When you want to build certain applications then there are certain things you might need readymade. That is where you might want to use a framework.
+
+Now Django is not the only framework here. There are other frameworks like Flask, CherryPy etc.
+
+So, why choose Django?
+
+because Django is:
+
+Fast
+If you want to build something we might not want to spend much time in the configuration.
+
+2. Components Available
+
+Components available: Different components like login, database connectivity etc. All this comes bundled in Django.
+
+3. Security
+
+Django provides security to the users.
+
+4. Scalability
+
+If you want to scale your websites in terms of users or functions then django provides you that too!
+
+We can built websites using HTML, CSS and JavaScript
+
+HTML can be used to design the basic structure of the page.
+
+CSS is used for styling and beautifying the website.
+
+JavaScript is used for making the website interactive.
+
+We have these for the front end. What about the backend? What if we want to make a dynamic website? That’s what we can do using Servlet, JS, PHP, ASP and Python…
+
+How to do it using Python? Django!
+
+Django Setup
+pip –version
+
+(to check python version)
+
+django-admin –version
+
+(to view django version in your device)
+
+pip install virtualenvwrapper-win
+
+(to install a virtual environment wrapper)
+
+mkvirtualenv <virtual env name>
+
+(to create environment)
+
+pip install django
+
+(to install django)
+
+pip install — upgrade django==3.0
+
+(to upgrade the version of django)
+
+django-admin startproject <project-name>
+
+(to create a project)
+
+python manage.py runserver
+
+(to run the server)
+
+MCT & MVT
+Now one thing which is very famous when it comes to web application is MVC. It doesn’t matter which language you learn. It might be Java, PHP,ASP… We have this thing in common which is MVC [Model View Controller]. We use this to separate these three…
+
+Model (data)
+
+View (for the html format that we see on the screen)
+
+Controller (to control these operations)
+
+However, In Django we have something similar to MVC which we normally call MVT[Model View Template]. In MVT we are replacing Controller with view and View with template.
+
+Django Setup
+In order to work with Django you need Python version at least more than 3.0 to work with.
+
+To check your python version go to your terminal and type:
+
+pip — version
+
+django-admin — version
+
+It will show the Django version in your device.
+
+In case you don’t have Django, follow along:
+
+first we need a virtual env wrapper so that our Django projects does not affect other existing projects. Type:
+
+pip install virtualenvwrapper-win
+
+Now create the environment.
+
+mkvirtualenv <virtual env name>
+
+install django:
+
+pip install django
+
+create a project:
+
+django-admin startproject <project-name>
+
+It will create a project for you in the folder. Now to run on your Django server,
+
+python manage.py runserver
+
+to upgrade:
+
+pip install — upgrade django==3.0
+
+In the setting.py file we need to let Django know about our app.
+
+Under installed apps, add ‘<app name>’.
+
+Views
+Views are vital participants of MVT.
+
+A view function takes a Web request and returns a Web response.
+
+This response can be the HTML contents of a Web page, or a redirect, or a 404 error, or an XML document, or an image, anything that a web browser can display.
+
+Django views are part of the user interface — they usually render the HTML/CSS/Javascript in your Template files into what you see in your browser when you render a web page.
+
+Presentation and Video link: https://drive.google.com/drive/folders/1EbaIKC1zNrH8pNYk8f-q2SBqr2IlKdof?usp=sharing
